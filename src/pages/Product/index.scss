@@ -1,0 +1,31 @@
+@media (max-width: 770px) {
+  .product {
+    .container {
+      nav {
+        .productSearch {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.product {
+  .container {
+    nav {
+      margin-bottom: 10px;
+      form {
+        padding: 5px;
+      }
+      .productCategory {
+        flex: 1;
+      }
+      .productSearch {
+        flex: 2;
+      }
+      .productOrder {
+        flex: 1;
+      }
+    }
+  }
+}

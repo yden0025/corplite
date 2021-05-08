@@ -1,0 +1,26 @@
+.productItem {
+  .card {
+    margin-bottom: 10px;
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+    flex-direction: row;
+    .productImage {
+      @media (max-width: 600px) {
+        margin: 0 auto;
+      }
+      line-height: 150px;
+      padding: 10px;
+      width: 150px;
+      height: 150px;
+    }
+    .productContent {
+      width: 100%;
+    }
+    .productPrice {
+      @media (min-width: 600px) {
+        width: 10%;
+      }
+    }
+  }
+}
